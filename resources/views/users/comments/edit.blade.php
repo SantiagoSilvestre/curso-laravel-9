@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', "Editar o comentário - { $user->name }")
+@section('title', "Editar o comentário - $user->name")
 
 @section('content')
     <h1 class="text-2xl font-semibold leading-tigh py-2">Editar o comentário -  {{ $user->name }}</h1>
